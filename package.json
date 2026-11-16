@@ -1,0 +1,16 @@
+{
+  "name": "sombra-live-bot",
+  "version": "1.0.0",
+  "description": "Avatar de IA que le comentarios e presentes da live do TikTok e responde por voz",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "tiktok-live-connector": "^1.2.0",
+    "ws": "^8.18.0"
+  }
+}
